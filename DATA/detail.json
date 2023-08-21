@@ -1,0 +1,40 @@
+[{
+    "avt": "Dish1.png",
+    "name": "Huy Do",
+    "rate": "ngôi sao" ,
+    "time":"2023-02-02 04:08",
+    "react": "Món này Ngon lắm nha, xứng đáng 10 điểm nek, shipper siêu thân thiện luông á chafiiii!",
+    "like": 5
+},
+{
+    "avt": "Dish1.png",
+    "name": "Tran Bang Bang",
+    "rate": "ngôi sao" ,
+    "time":"2023-07-02 04:08",
+    "react": "Shiper cute hehe, đồ ăng còn nóng hổi nha mụi người!",
+    "like": 7
+},
+{
+    "avt": "Dish1.png",
+    "name": "Hà Huy Đỗ",
+    "rate": "ngôi sao" ,
+    "time":"2023-02-12 04:08",
+    "react": "Nước dùng đậm vị nhé, ngon, mình thấy giá này cũng hợp lí:>",
+    "like": 6   
+},
+{
+    "avt": "Dish1.png",
+    "name": "Mỹ Nga",
+    "rate": "ngôi sao" ,
+    "time":"2023-27-02 04:08",
+    "react": "Món này Ngon lắm nha, xứng đáng 10 điểm nek, shipper siêu thân thiện luông á chafiiii!",
+    "like": 12
+},
+{
+    "avt": "Dish1.png",
+    "name": "Phạm Thị Kim Liên",
+    "rate": "ngôi sao" ,
+    "time":"2023-02-02 04:08",
+    "react": "Món này Ngon lắm nha, xứng đáng 10 điểm nek, shipper siêu thân thiện luông á chafiiii!",
+    "like": 3
+}]

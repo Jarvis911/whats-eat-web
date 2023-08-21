@@ -1,0 +1,66 @@
+[{
+    "id": 1,
+    "sale": "15%",
+    "name": "Spaghetti Ngon Ngon",
+    "rate": 4.5,
+    "price": 44,
+    "location": "53/58 Trần Khánh Dư, P. Tân Định, Quận 1, TP. HCM",
+    "image": "Dish1.png"
+}, {
+    "id": 2,
+    "sale": "15%",
+    "name": "Đồ ăn Hàn Yam Yam",
+    "rate": 4.9,
+    "price": 30,
+    "location": "Chung Cư Richstar, 278 Hòa Bình, P. Hiệp Tân, Tân Phú, TP. HCM",
+    "image": "Dish2.png"
+
+}, {
+    "id": 3,
+    "sale": "15%",
+    "name": "Gà rán Lucky",
+    "rate": 4.4,
+    "price": 30,    
+    "location": "109 Hoàng Diệu 2, KP. 2, P. Linh Trung, Thành Phố Thủ Đức, TP. HCM",
+    "image": "Dish3.png"
+}, {
+    "id": 4,
+    "sale": "15%",
+    "name": "Cơm chay Diệu Huyền",
+    "rate": 4.7,
+    "price": 25,
+    "location": "146/3 Nguyễn Văn Trỗi, P. 8, Phú Nhuận, TP. HCM",
+    "image": "Dish4.png"
+}, {
+    "id": 5,
+    "sale": "5%",
+    "name": "Cơm chay Diệu Huyền",
+    "rate": 4.7,
+    "price": 25,
+    "location": "146/3 Nguyễn Văn Trỗi, P. 8, Phú Nhuận, TP. HCM",
+    "image": "Dish5.png"
+}, {
+    "id": 6,
+    "sale": "11%",
+    "name": "Cơm chay Diệu Huyền",
+    "rate": 4.7,
+    "price": 25,
+    "location": "146/3 Nguyễn Văn Trỗi, P. 8, Phú Nhuận, TP. HCM",
+    "image": "Dish6.png"
+}, {
+    "id": 7,
+    "sale": "45%",
+    "name": "Cơm chay Diệu Huyền",
+    "rate": 4.7,
+    "price": 25,
+    "location": "146/3 Nguyễn Văn Trỗi, P. 8, Phú Nhuận, TP. HCM",
+    "image": "Dish7.png"
+}, {
+    "id": 8,
+    "sale": "25%",
+    "name": "Cơm chay Diệu Huyền",
+    "rate": 4.7,
+    "price": 25,
+    "location": "146/3 Nguyễn Văn Trỗi, P. 8, Phú Nhuận, TP. HCM",
+    "image": "Dish8.png"
+}]

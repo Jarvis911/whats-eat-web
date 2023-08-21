@@ -1,0 +1,342 @@
+html {
+    font-size: 100%;
+    /* Mặc định 100% = 16px */
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif,'SF Mono'; 
+    line-height: 1.5;       
+}
+:root {
+    --dark_green: rgb(49,58,52);
+    --green: rgb(18, 103, 87);
+    --red: rgb(222,90,44);
+    --yellow: #EAA116;
+    --shadow:rgba(0, 0, 0, 0.307);
+    --hover:rgb(102, 118, 107);
+    --active:rgb(83, 114, 93);
+    --whiteshadow: rgba(255, 255, 255, 0.385);
+    --content: rgba(0,0,0,0.75);
+}   
+body {
+    background-color: var(--shadow);
+}
+.flex {
+    display: flex;
+}
+/* MENU */
+.menu-bar {
+    width: 100%;
+    height: 7rem;
+    background-image: linear-gradient(to right,var(--green),rgba(255, 255, 255, 0.047));   
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+/* SEARCH BAR */
+.search {
+    margin-right: 9rem;
+}
+.search-bar input, button, .cart {
+    height: 3rem;
+    padding: 1rem;
+    box-shadow: 0.4rem 0.4rem 0.2rem var(--shadow);
+}
+.cart {
+    border-radius: 0.5rem;
+    background-color: var(--yellow);
+    color: white;
+    margin-left: 1rem;
+}
+.cart i {
+    display: flex;
+    align-items: center;
+}
+.search-bar input {
+    width: 14rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+.search-bar button {
+    width: 3rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+/* lOGO */
+.logo-of-web {
+    width: 6rem;
+}
+.logo-of-web img {
+    width: 100%;
+}
+/* SEARCH BAR */
+
+/* MÔ TẢ SẢN PHẨM */
+
+.info-of-food, .info-of-shop, .info-of-review {
+    max-width: 80vw;
+    height: 35.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    position: relative;
+    margin: 1rem auto;
+}
+
+/* PHẦN ẢNH MÔ TẢ */
+@keyframes err {
+    from {
+        outline: unset;
+    }
+    to {
+        outline: 1px solid red;
+    }
+}
+.error {
+    animation: err .5s 3;
+}   
+.description-photo > div {
+    border-radius: 0.9rem;
+    box-shadow: 0.6rem 0.6rem 0.2rem var(--shadow);
+}
+.description-photo img {
+    border-radius: 0.4rem;
+}
+.description-photo > div {
+    width: 32%;
+    position: absolute;
+    padding: 1rem;
+    margin: 1rem;
+    top: 0rem;
+    left: 0rem;
+    border: 0.2rem solid var(--green);
+}
+.description-photo > div > img {
+    width: 100%;
+}
+.other-photo > div {
+    width: 100%;
+    padding-right: 0.5rem;
+}
+.other-photo > div:last-child {
+    padding-right: 0;
+}
+.other-photo img {
+    width: 100%;
+}
+
+/* PHẦN NỘI DUNG CHỮ*/
+.container-of-text-infor {
+    width: 62%;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    margin: 1rem;
+    padding-top: 0.5rem;
+    color: var(--content);
+}
+
+.container-of-text-infor > div, .text-infor p {
+    margin-bottom: 1rem;  
+}
+
+.right-of-infor  {
+    padding-left: 2rem;  
+}
+.right-of-infor i {
+    color: var(--green);
+}
+
+.name {
+    font-size: 1.4rem;
+}
+.name i {
+    color: var(--green); 
+}
+.rate i {
+    color: red;
+}
+.rate a {
+    margin-left: 5rem;
+    border-left: 0.1rem solid var(--shadow);
+    color:var(--content);
+}
+.price {
+    font-size: 1.8rem;
+    color: white;
+    background-image: linear-gradient(to right,var(--green),rgba(255, 255, 255, 0.047));   
+    padding: 0.4rem 0rem 0.4rem 0.5rem;
+}
+/* Button tăng giảm */
+#inc, #dec {
+    width: 1.5rem;  
+    height: 1.5rem;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-of-infor input {
+    width: 4rem;
+    text-align: center;
+    background-color: transparent;
+}
+/* Phần giỏ hàng */
+.container-cart div {
+    border-radius: 0.6rem;
+    border: 0.1rem solid var(--green);
+    padding: 0.7rem;
+}
+
+.buy-it {
+    margin-left: 0.5rem;
+    background-color: var(--green);
+}
+.buy-it a {
+    color: white;
+}
+.add-to-cart i {
+    color: var(--green);
+}
+.add-to-cart a {
+    color: var(--content);
+
+}
+/* PHẦN SEE RESTAURANT  */
+.info-of-shop {
+    margin: 1rem auto;
+    padding: 1rem;
+    height: 11.2rem;
+}
+.image-of-shop img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 0.1rem solid var(--green);
+    padding: 0.3rem;
+    box-shadow: 0.4rem 0.4rem 0.2rem var(--shadow);
+}
+.image-of-shop {  
+    width: 9rem;
+    height: 9rem;
+    margin-right: 2rem;
+}
+.info-of-shop p {
+    font-size: 1rem;  
+    margin-bottom: 1rem;
+    color: var(--content);
+}
+/* ĐÁNH GIÁ MÓN ĂNG */
+.info-of-review {
+    height: 65rem;
+}
+.info-of-review > div {
+    margin:  auto;
+    padding:1.5rem;
+}
+.review-of-client > div:first-child {
+    font-size: 1.4rem;
+    padding:2rem;
+    background-image: linear-gradient(to right,var(--green),rgba(255, 255, 255, 0.047));   
+            color: white;
+}
+.avt-client img {
+    width: 100%;
+    height: 100%;  
+    border-radius: 50%;
+ 
+}
+.review-of-client > div:first-child {
+    border-radius: 0.3rem;
+    box-shadow: 0.4rem 0.4rem 0.2rem var(--shadow);
+}
+.avt-client {
+    width: 4rem;
+    height: 4rem;
+}
+.review-of-client {
+    width:100%;
+    position: absolute;
+}
+#reviews {
+    margin: 2rem;
+}
+.review {
+    padding: 1rem;
+}
+.review p {
+    font-size: 0.9rem;
+    color: var(--content);
+    margin-left: 1rem;
+}
+/* GO TO */
+#button {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: var(--green);
+    box-shadow: 5px 5px 3px var(--shadow);
+    color: white;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* SẢN PHẨM ĐỀ XUÁT */
+.products  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product {
+    width: 16%;
+    margin: 0.5rem;
+    line-height: 1.5;
+    transition: transform 0.6s;
+}
+.product > div {
+    font-size: 0.75rem;
+    height: 22rem;
+    background-color: white;
+    padding: 0.25rem;
+    border-radius: 0.4rem;
+    box-shadow: 0.3rem 0.3rem 0.2rem var(--shadow);
+    position: relative;
+}
+
+.product .rate {
+    /* Đánh giá */
+    font-size: 0.62rem;
+}
+.product span {
+    color: rgba(0, 0, 0, 0.77);
+}
+.product i {
+    color: var(--price);
+}
+.product img {
+    width: 100%;
+    transition: transform .5s;
+    border-radius: 0.4rem;
+    box-shadow: 0.1rem 0.1rem 0.4rem var(--shadow);
+}
+.product .content {
+    padding: 0.4rem;
+}
+.product  div + p {
+    /* Địa chỉ */
+    font-size: 0.6rem;
+}
+.product .price {
+    /* Giá tiền */
+    color: white;
+    font-size: 0.7rem;
+}
+
+.product:hover {
+    transform: scale(1.11);
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/detail1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.cdnfonts.com/css/sf-mono" rel="stylesheet">
+    <title>Taste</title>
+    <script src="/JS/detail.js"> </script>
+</head>
+<body>
+    <header>
+        <!-- MENU -->
+        <div class="header">
+            <nav class="menu-bar flex">
+                <div>
+                    <!-- <a href=""><i class="fa-solid fa-bars"></i></a> 
+                    <div class="logo-of-web"><img src="/IMG/logo.png" alt=""></div>                    -->
+                </div>
+                <div class="search flex">
+                    <form action="/search" method="get" class="search-bar flex"> 
+                        <input type="search" id="search" name="query" placeholder="Bún đậu, cơm tấm, bingchilling..." required>
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                    <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+     <!-- GO TO TOP -->
+        <a onclick="topFunction()" id="button" href="#"><i class="fa-solid fa-arrow-up"></i></a>
+    <!-- MÔ TẢ SẢN PHẨM -->
+    <div class="info-of-food">
+
+        <!-- Phần ảnh mô tả -->
+        <div class="description-photo flex">
+            <div>
+                <img src="/IMG/Dish11.png" id="main" alt="">
+                <div class="other-photo flex">
+                    <!-- <div id="pre" onclick="changeImg(-1)"><i class="fa-solid fa-caret-left"></i></div> -->
+                    <div><img src="/IMG/Dish1.png" alt=""></div>
+                    <div><img src="/IMG/Dish2.png" alt=""></div>
+                    <div><img src="/IMG/Dish3.png" alt=""></div>
+                    <div><img src="/IMG/Dish3.png" alt=""></div>
+                    <!-- <div id="next" onclick="changeImg(1)"><i class="fa-solid fa-caret-right"></i></div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Phần nội dung chữ -->
+        <div class="container-of-text-infor">
+            <div class="name"><i class="fa-solid fa-utensils"></i>&nbsp;Quán cơm chay Diệu Huyền</div>
+            <div class="rate flex">
+                <i class="fa-solid fa-star"></i><span>&nbsp;4.8</span>
+                <a href="">&nbsp;Đánh Giá: 45</a>
+                <a href="">&nbsp;Đã bán: 10k</a>
+                </div>
+            <div class="price"><b>&nbsp;&#8363;55.0000</b></div>
+
+            <div class="text-infor flex">
+                <div class="left-of-infor">
+                    <p>Địa chỉ:</p>
+                    <p>Vận chuyển:</p>
+                    <P><i style="color:red; font-size:1.2rem" class="fa-regular fa-heart"></i></P>
+                    <p>Số lượng:</p>
+                </div>
+                <div class="right-of-infor">
+                    <p><i class="fa-solid fa-location-dot"></i>&nbsp;146/3 Nguyễn Văn Trỗi, P. 8, Phú Nhuận, TP. HCM</p>
+                    <p><i class="fa-solid fa-truck"></i>&nbsp;Miễn phí vận chuyển</p>
+                    <!-- Button tăng giảm -->
+                    <p>Đã thích</p>     
+                    <div class="quantity flex">
+                        <button id="dec">-</button>
+                        <input type="text" id="quantityValue" value="1">
+                        <button id="inc">+</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Phần giỏ hàng -->
+            <div class="container-cart flex">
+                <div class="add-to-cart"><a href="#"><i class="fa-solid fa-cart-shopping">&nbsp;</i>Thêm vào giỏ hàng</a></div>
+                <div class="buy-it"><a href="#"><i class="fa-solid fa-bag-shopping"></i>&nbsp;Mua ngay</a></div>
+            </div>
+        </div>  
+    </div>
+     <!-- PHẦN SEE RESTAURANT -->
+     <div class="info-of-shop flex">
+        <div class="image-of-shop"><a href=""><img src="/IMG/Dish2.png" alt="Logo Quán"></a></div>
+        <div>
+            <a href="" ><p>Kì Diệu Quán</p></a>
+            <div class="container-cart flex">
+                <div class="add-to-cart"><i class="fa-regular fa-comments"></i>&nbsp;Chat ngay</div>
+                <div class="buy-it" style="color:white"><i class="fa-solid fa-house"></i>&nbsp;Xem shop</div></div>
+            </div>
+        </div>
+    </div> 
+    <!-- PHẦN ĐÁNH GIÁ MÓN ĂNG -->
+    <div class="info-of-review">
+        <div class="review-of-client">
+            <div>ĐÁNH GIÁ MÓN ĂN</div>
+            <div id="reviews">
+                <div class="review flex">        
+                    <div class="avt-client"><img src="/IMG/Dish11.png" alt="Avatar của khách hàng"></div> 
+                    <div>
+                        <p><b>Tran Huy</b></p>
+                        <p style="color: red"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                        <p>2023-02-02 04:08</p>
+                        <p style="margin-top: 0.5rem; font-size: 1rem">Đồ ăng ngon lắm nha, lúc nhận hàng còn nóng hổi ạ!!!</p>
+                        <p><i class="fa-solid fa-thumbs-up"></i>&nbsp;5</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="other-products">
+        <div class="products" id="products">
+            <div class="product">
+               <div>
+                    <!-- Image -->
+                    <div><img src="/IMG/Dish1.png" alt="Food" /></div>
+                    <!-- Content -->
+                    <div class="content-of-product">
+                        <h4>name</h4> 
+                        <div class="rate"><i class="fa-solid fa-star"></i><span>&nbsp;rate</span></div>
+                        <p>location</p>
+                        <p class="price"><b>&#8363;price</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html> 

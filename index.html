@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/main2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.cdnfonts.com/css/sf-mono" rel="stylesheet">
+    <title>Whats Eat</title>
+
+    <script src="/JS/Project.js"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+    <!-- MENU -->
+        <nav class="menu">
+            <a href="#">Ở Đâu</a>
+            <a href="#">Ăn Gì</a>
+            <img src="/IMG/logo.png" alt="">
+            <a href="#">Review</a>
+            <a href="#">Đặt Hàng</a>
+        </nav>
+    </header>
+
+    <!-- MAIN SECTION -->
+    <div id="main-section">
+        <div class="main-content">
+            <h1 class="main-heading">Whats Eat?</h1>
+            <p class="main-line">Khám phá và hiểu rõ hơn văn hóa và nền ẩm thực Việt Nam với website đánh giá và đặt đồ ăn Whats Eat.</p>
+            <div class="search location">
+                <input type="text" class="search-box" placeholder="Nhà hàng, món ăn ...">
+                <button class="search-btn locate-btn"><i class="fa-solid fa-location-crosshairs"></i></button>
+            </div>
+
+            <div class="main-action-btn-container">
+                <button class="btn">Xem Chi Tiết</button>
+                <p class="or">
+                hoặc
+                </p>
+                <button class="btn transparent">Đặt Món</button>
+            </div>
+        </div>
+
+        <div class="main-image">
+            <img src="/IMG/banner0.png">
+        </div>
+    </div>
+
+    <!-- BANNER -->   
+  
+      <div class="slider-container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="1" src="/IMG/banner3.jpg" alt="">
+                <img id="2" src="/IMG/banner2.jpg" alt="">
+                <img id="3" src="/IMG/banner1.jpg" alt="">
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- GO TO TOP -->
+    <button>
+        <a onclick="scrollToTop()" id="button"><i class="fa-solid fa-arrow-up"></i></a>
+    </button>
+
+    <!-- LIST BEST-SELLER -->
+    <h1 class="best-seller"> Ưu Đãi Hôm Nay </h1>
+    <!-- Sản phẩm -->
+    <div class="products" id="products">
+        <div class="product">
+           <div>
+                <!-- Sale -->
+                <div class="sale-off">
+                    <p class="sale-off-percent">43%</p>
+                    <p class="sale-off-label">GIẢM</p>
+                </div>
+                <!-- Image -->
+                <div><img src="/IMG/Dish1.png" alt="Food" /></div>
+                <!-- Content -->
+                <div class="content-of-product">
+                    <h4>name</h4> 
+                    <div class="rate"><i class="fa-solid fa-star"></i><span>&nbsp;rate</span></div>
+                    <p>location</p>
+                    <p class="price"><b>&#8363;price</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="watch-more-container">
+        <button  class="watch-more-tittle">Xem thêm</button>
+    </div>
+
+    <!-- About Us Section -->
+    <div class="about-section-container" id="about-section">
+        <div class="about">
+            <p class="about-title">
+                Vì sao chọn Whats Eat?
+            </p>
+            <div class="service-container">
+                <div class="service">
+                    <div class="service-title">
+                        <i class="fa-solid fa-truck-fast"></i></i> Giao hàng nhanh chóng
+                    </div>
+                    <p class="service-detail">Whats Eat có thể mang những món ăn nóng hổi đến tay bạn trong thời gian ngắn nhất!</p>
+                </div>
+
+                <div class="service">
+                    <div class="service-title">
+                        <i class="fa-solid fa-money-bill"></i> Mức giá ưu đãi
+                    </div>
+                    <p class="service-detail">Whats Eat luôn mang đến cho bạn những địa điểm và món ăn ngon với mức giá ưu đãi nhất!</p>
+                </div>
+
+                <div class="service">
+                    <div class="service-title">
+                        <i class="fa-solid fa-ranking-star"></i> Hàng trăm địa điểm
+                    </div>
+                    <p class="service-detail">Whats Eat đã kết nối đến hàng trăm địa điểm ăn uống tốt nhất trên địa bàn!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews-container">
+            <div class="review-wrapper">
+                <img src="/IMG/user-1.png" class="reviewer-img">
+                <div class="review-box">
+                    <div class="reviewer-info">
+                        <div class="reviewer">
+                            <div class="reviewer-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p class="reviewer-name">
+                                BinZ
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review-body">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class="review">
+                            Whats Eat đã giúp tôi rất nhiều khi chỉ cần nhấn vào thôi thì đã thấy rất nhiều món ăn ngon và địa chỉ, đánh giá của địa điểm đó luôn rồi! Cảm ơn Whats Eat nhé!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-wrapper">
+                <img src="/IMG/user-2.png" class="reviewer-img">
+                <div class="review-box">
+                    <div class="reviewer-info">
+                        <div class="reviewer">
+                            <div class="reviewer-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p class="reviewer-name">
+                                Karik
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review-body">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class="review">
+                            Whats Eat đã giúp tôi rất nhiều khi chỉ cần nhấn vào thôi thì đã thấy rất nhiều món ăn ngon và địa chỉ, đánh giá của địa điểm đó luôn rồi! Cảm ơn Whats Eat nhé!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-wrapper">
+                <img src="/IMG/user-3.png" class="reviewer-img">
+                <div class="review-box">
+                    <div class="reviewer-info">
+                        <div class="reviewer">
+                            <div class="reviewer-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p class="reviewer-name">
+                                Jarvis
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review-body">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class="review">
+                            Whats Eat đã giúp tôi rất nhiều khi chỉ cần nhấn vào thôi thì đã thấy rất nhiều món ăn ngon và địa chỉ, đánh giá của địa điểm đó luôn rồi! Cảm ơn Whats Eat nhé!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-wrapper">
+                <img src="/IMG/user-3.png" class="reviewer-img">
+                <div class="review-box">
+                    <div class="reviewer-info">
+                        <div class="reviewer">
+                            <div class="reviewer-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p class="reviewer-name">
+                                Jasmine
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review-body">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class="review">
+                            Whats Eat đã giúp tôi rất nhiều khi chỉ cần nhấn vào thôi thì đã thấy rất nhiều món ăn ngon và địa chỉ, đánh giá của địa điểm đó luôn rồi! Cảm ơn Whats Eat nhé!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="faq-section">
+        <h1 class="section-title">Những Câu Hỏi Hay Gặp</h1>
+        <div class="faq">
+            <div class="question-box">
+                <h3 class="question">Làm sao tôi có thể hủy đơn đặt hàng?</h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="answer-box">
+                <p class="answer">Bạn chỉ cần nhấn vào nút hủy đặt hàng nếu đơn hàng chưa được duyệt. Nếu đơn đã được duyệt, vui lòng liên hệ đơn vị vận chuyển thông báo với quán ăn nhé.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question-box">
+                <h3 class="question">Làm sao tôi có thể liên hệ với shipper của tôi?</h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="answer-box">
+                <p class="answer">Số điện thoại của shipper được thông báo trong phần mềm giao hàng. Bạn chỉ cần liên lạc với số điện thoại đó là được nhé.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question-box">
+                <h3 class="question">Làm sao để tôi có thể đổi địa điểm vận chuyển hàng?</h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="answer-box">
+                <p class="answer">Bạn chỉ cần nhấn vào phần đổi địa chỉ giao hàng nếu đơn hàng chưa bắt đầu giao. Nếu đơn hàng đã vận chuyển, vui lòng liên hệ shipper để có thể tính toán rõ hơn về cách giải quyết nhé.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question-box">
+                <h3 class="question">Việc thanh toán trực tuyến của tôi bị từ chối, tôi phải làm sao?</h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="answer-box">
+                <p class="answer">Có thể là mạng của bạn đang bị lỗi, hoặc phần mềm ngân hàng đang bảo trì. Nếu không phải các lí do trên, vui lòng liên hệ cho chúng tôi theo số hotline bên dưới để Whats Eat có thể hỗ trợ bạn.</p>
+            </div>
+        </div>
+
+        <div class="dish-layer">
+            <img src="/IMG/side-dish.png">
+        </div>
+    </section>
+    
+
+    <!-- FOOTER -->
+    
+    <footer id="footer">
+        <div class="company-info">
+            <img src="/IMG/logo.png" class="logo" alt="">
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="useful-links footer-links-container"> 
+            <h5 class="footer-link-title">Đường dẫn</h5>
+            <a href="#" class="footer-links">Ở đâu</a> 
+            <a href="#" class="footer-links">Ăn gì</a>
+            <a href="#" class="footer-links">Đặt hàng</a>
+            <a href="#" class="footer-links">Hỗ trợ</a>   
+        </div>
+
+        <div class="information footer-links-container"> 
+            <h5 class="footer-link-title">Thông tin</h5>
+            <a href="#" class="footer-links">Về chúng tôi</a> 
+            <a href="#" class="footer-links">Thông tin pháp lí</a>
+            <a href="#" class="footer-links">Điều khoản</a>
+            <a href="#" class="footer-links">Thu thập thông tin</a>   
+        </div>
+
+        <div class="contact footer-links-container"> 
+            <h5 class="footer-link-title">Liên hệ</h5>
+            <a  class="footer-text">Địa chỉ: 371, Nguyễn Kiệm, Gò Vấp, TP.HCM</a> 
+            <a  class="footer-text">SĐT: 0999.999.999</a> 
+            <a  class="footer-text">Email: whatseat@gmail.com</a> 
+        </div>
+
+        <div class="payment-partners">
+            <img src="/IMG/visa.png" alt="">
+            <img src="/IMG/master-card.png" alt="">
+            <img src="/IMG/paypal.png" alt="">
+            <img src="/IMG/stripe.png" alt="">
+            <img src="/IMG/apple-pay.png" alt="">
+            <img src="/IMG/google-pay.png" alt="">
+        </div>
+
+    </footer>
+
+    <script>
+        // FAQ Section
+        let faqs = [...document.querySelectorAll('.faq')];
+        faqs.map(faq => {
+            let ques = faq.querySelector('.question-box');
+            ques.addEventListener('click', () => {
+                faq.classList.toggle('active');
+            })
+         })
+    </script>
+    <script>
+        //Review Wrapper
+        let reviews = document.querySelectorAll('.review-wrapper');
+
+        let currentReviews = [0, 2];
+
+        let updateReviewSlider = (cards) => {
+            cards.forEach((card_index) => {
+                reviews[card_index].classList.add('active'); 
+            })
+        }
+
+        setInterval(() => {
+            currentReviews.forEach((card_index, i) => {
+                reviews[card_index].classList.remove('active'); 
+
+                currentReviews[i] = card_index >= reviews.length - 1 ? 0 : card_index + 1;
+            });
+
+            setTimeout(() => {
+                updateReviewSlider(currentReviews);
+            }, 250)
+
+        }, 4500);
+    </script>
+</body>
+</html>

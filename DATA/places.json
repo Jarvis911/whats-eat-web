@@ -1,0 +1,200 @@
+[
+    {
+        "id": 1,
+        "idEach": "place-1",
+        "image": "/IMG/Place1.jpg",
+        "link": "#",
+        "score": "9.5",
+        "name": "Nhà Hàng Yaki",
+        "address": "60 Đường CN1, Phường Sơn Kỳ, Quận Tân Phú",
+        "type": "Nhà hàng"
+    },
+
+    {
+        "id": 2,
+        "idEach": "place-2",
+        "image": "/IMG/Place2.jpg",
+        "link": "#",
+        "score": "9.0",
+        "name": "The Refinery Bar & Restaurant",
+        "address": "74/7C Hai Bà Trưng, Quận 1, TP. HCM",
+        "type": "Nhà hàng"
+    },
+
+    {
+        "id": 3,
+        "idEach": "place-3",
+        "image": "/IMG/Place3.jpg",
+        "link": "#",
+        "score": "9.0",
+        "name": "Pizza 4P's",
+        "address": "92 Nguyễn Hữu Cảnh, Quận Bình Thạnh, TP. HCM",
+        "type": "Nhà hàng"
+    },
+
+    {
+        "id": 4,
+        "idEach": "place-4",
+        "image": "/IMG/Place4.jpg",
+        "link": "#",
+        "score": "9.0",
+        "name": "Yazawa Saigon",
+        "address": "219 Điện Biên Phủ, Quận 3, TP. HCM",
+        "type": "Nhà hàng"
+    },
+
+    {
+        "id": 5,
+        "idEach": "place-5",
+        "image": "/IMG/Place5.jpg",
+        "link": "#",
+        "score": "9.0",
+        "name": "Anrakutei Việt Nam",
+        "address": "59 Mạc Đĩnh Chi, Quận 1, TP. HCM",
+        "type": "Nhà hàng"
+    },
+
+    {
+        "id": 6,
+        "idEach": "place-6",
+        "image": "/IMG/Place6.jpg",
+        "link": "#",
+        "score": "9.0",
+        "name": "La Crêperie",
+        "address": "16 đường 43, Quận 2, TP. HCM",
+        "type": "Nhà hàng"
+    },
+
+    {
+        "id": 7,
+        "idEach": "place-7",
+        "image": "/IMG/Place7.jpg",
+        "link": "#",
+        "score": "9.0",
+        "name": "King Rooftop Coffee",
+        "address": "33 Hai Bà Trưng, Bến Nghé, Quận 1, Hồ Chí Minh",
+        "type": "Coffee"
+    },
+
+    {
+        "id": 8,
+        "idEach": "place-8",
+        "image": "/IMG/Place8.jpg",
+        "link": "#",
+        "score": "7.8",
+        "name": "Đa Bào Cố Đô",
+        "address": "18 Tú Xương, Quận 3",
+        "type": "Coffee"
+    },
+
+    {
+        "id": 9,
+        "idEach": "place-9",
+        "image": "/IMG/Place9.jpg",
+        "link": "#",
+        "score": "8.3",
+        "name": "Local Saigon Cafe",
+        "address": "12 Thủ Khoa Huân, Phường Bến Thành, Quận 1",
+        "type": "Coffee"
+    },
+
+    {
+        "id": 10,
+        "idEach": "place-10",
+        "image": "/IMG/Place10.jpg",
+        "link": "#",
+        "score": "9.2",
+        "name": "Cộng Cà Phê",
+        "address": "467 Phan Văn Trị, Phường 5, Quận Gò Vấp",
+        "type": "Coffee"
+    },
+
+    {
+        "id": 11,
+        "idEach": "place-11",
+        "image": "/IMG/Place11.jpg",
+        "link": "#",
+        "score": "9.0",
+        "name": "Nhà Saigon Cafe",
+        "address": "12 Nguyễn Công Trứ, Phường 19, Bình Thạnh",
+        "type": "Coffee"
+    },
+
+    {
+        "id": 12,
+        "idEach": "place-12",
+        "image": "/IMG/Place12.jpg",
+        "link": "#",
+        "score": "7.0",
+        "name": "Beanthere Cafe",
+        "address": "42/7 Hồ Hảo Hớn, Phường Cô Giang, Quận 1",
+        "type": "Coffee"
+    },
+
+    {
+        "id": 13,
+        "idEach": "place-13",
+        "image": "/IMG/Place13.jpg",
+        "link": "#",
+        "score": "8.8",
+        "name": "Haidilao",
+        "address": "Vincom Center Đồng Khởi, 72 Lê Thánh Tôn, Bến Nghé, Quận 1",
+        "type": "Buffet"
+    },
+
+    {
+        "id": 14,
+        "idEach": "place-14",
+        "image": "/IMG/Place14.jpg",
+        "link": "#",
+        "score": "8.4",
+        "name": "Taiwanese Hotpot",
+        "address": "Vincom Center Đồng Khởi, 72 Lê Thánh Tôn, Bến Nghé, Quận 1",
+        "type": "Buffet"
+    },
+
+    {
+        "id": 15,
+        "idEach": "place-15",
+        "image": "/IMG/Place15.jpg",
+        "link": "#",
+        "score": "7.0",
+        "name": "Kichi Kichi",
+        "address": "Vincom Center Đồng Khởi, 72 Lê Thánh Tôn, Bến Nghé, Quận 1",
+        "type": "Buffet"
+    },
+
+    {
+        "id": 16,
+        "idEach": "place-16",
+        "image": "/IMG/Place16.jpg",
+        "link": "#",
+        "score": "9.0",
+        "name": "Sà Bì Chưởng",
+        "address": "Số 179, Trần Bình Trọng, Phường 3, Quận 5",
+        "type": "Quán ăn"
+    },
+
+    {
+        "id": 17,
+        "idEach": "place-17",
+        "image": "/IMG/Place17.jpg",
+        "link": "#",
+        "score": "9.0",
+        "name": "A Mà Kitchen",
+        "address": "Số 23, Đường Tôn Đức Thắng, Phường Bến Nghé, Quận 1",
+        "type": "Quán ăn"
+    },
+
+    {
+        "id": 18,
+        "idEach": "place-18",
+        "image": "/IMG/Place18.jpg",
+        "link": "#",
+        "score": "9.0",
+        "name": "Cơm Quê Mười Khó",
+        "address": "Số 27, Trần Quốc Thảo, Phường 6, Quận 3",
+        "type": "Quán ăn"
+    }
+]
+
